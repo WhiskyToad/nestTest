@@ -5,7 +5,7 @@ import {
   Column,
   CreateDateColumn,
   OneToMany,
-} from 'TypeORM';
+} from 'typeorm';
 
 @Entity('todo')
 export class TodoEntity {

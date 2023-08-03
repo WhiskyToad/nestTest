@@ -4,7 +4,7 @@ import {
   Column,
   CreateDateColumn,
   ManyToOne,
-} from 'TypeORM';
+} from 'typeorm';
 
 import { TodoEntity } from '@todo/entity/todo.entity';
 
